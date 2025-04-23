@@ -50,7 +50,7 @@ This project demonstrates the optimization of Support Vector Machines (SVM) usin
 
 ### 📉 Convergence Graph
 
-![Convergence Plot](results/figure1_convergence_plot.png)
+![Convergence Plot](cfeb6e50-6aba-4b4e-9321-01c11c848246.png)
 
 - **X-axis**: Iterations (Training Set Size %)
 - **Y-axis**: Accuracy
