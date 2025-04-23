@@ -40,17 +40,26 @@ This project demonstrates the optimization of Support Vector Machines (SVM) usin
 
 ### Table 1: Comparative Performance of Optimized SVM Samples
 
-| Sample # | Best Accuracy | Best Kernel | Best Nu (C) | Best Epsilon (Gamma) |
-|----------|----------------|--------------|-------------|-----------------------|
-| S1–S10   | Auto-filled based on run | Kernel with highest performance | Optimized `C` | Optimized `gamma` |
+| Sample | Best Accuracy | Best Kernel | Best Nu | Best Epsilon |
+|--------|----------------|-------------|---------|---------------|
+| S1     | 0.6354         | rbf         | 2.9499  | 0.9041        |
+| S2     | 0.6562         | rbf         | 6.6489  | 1.1888        |
+| S3     | 0.6354         | rbf         | 2.3996  | 1.0856        |
+| S4     | 0.6750         | rbf         | 5.6223  | 0.7700        |
+| S5     | 0.6417         | rbf         | 9.3472  | 0.6591        |
+| S6     | 0.6583         | rbf         | 2.0816  | 0.5325        |
+| S7     | 0.6417         | rbf         | 4.9333  | 0.0884        |
+| S8     | 0.6521         | rbf         | 2.8376  | 0.6842        |
+| S9     | 0.6750         | rbf         | 5.9431  | 1.1624        |
+| S10    | 0.6792         | rbf         | 2.2394  | 0.3114        |
 
-> 📁 Saved at: `results/table1_best_accuracies.csv`
+> 📁 Saved at: `table1_best_accuracies.csv`
 
 ---
 
 ### 📉 Convergence Graph
 
-![Convergence Plot](cfeb6e50-6aba-4b4e-9321-01c11c848246.png)
+![Convergence Plot](figure1_convergence_plot.png)
 
 - **X-axis**: Iterations (Training Set Size %)
 - **Y-axis**: Accuracy
